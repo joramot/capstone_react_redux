@@ -26,7 +26,7 @@ const Home = () => {
         {data
         && data.map((item) => (
           <div key={item.id}>
-            <Link className="" to="details" onClick={() => handleGetId(item.id)}>
+            <Link className="" to="content" onClick={() => handleGetId(item.id)}>
               <img alt="right arrow" />
             </Link>
             <p>{item.symbol}</p>

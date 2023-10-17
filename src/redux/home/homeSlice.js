@@ -28,7 +28,7 @@ const homeSlice = createSlice({
   initialState,
   reducers: {
     getId: (state, action) => {
-      state.detailsId = action.payload;
+      state.id = action.payload;
     },
   },
   extraReducers: (builder) => {
