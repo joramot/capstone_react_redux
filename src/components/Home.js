@@ -6,7 +6,7 @@ import { fetchData, getId } from '../redux/home/homeSlice';
 const Home = () => {
   console.log(fetchData.data);
   const {
-    isPending, error, data,
+    isLoading, error, data,
   } = useSelector((state) => state.home);
   const dispatch = useDispatch();
 
@@ -19,7 +19,25 @@ const Home = () => {
   };
 
   return (
-    <>This the HOME</>
+    <>
+      {isLoading && <p className="">Loading...</p>}
+      {error && <p className="">{error}</p>}
+      <div className="">
+        {data
+        && data.map((item) => (
+          <div key={item.id}>
+            <Link className="" to="details" onClick={() => handleGetId(item.id)}>
+              <img alt="right arrow" />
+            </Link>
+            <p>{item.symbol}</p>
+            <p>
+              Price:&nbsp;
+              {item.price}
+            </p>
+          </div>
+        ))}
+      </div>
+    </>
   );
 };
 
