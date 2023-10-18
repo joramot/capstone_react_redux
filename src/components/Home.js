@@ -4,7 +4,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { fetchData, getId } from '../redux/home/homeSlice';
 
 const Home = () => {
-  console.log(fetchData.data);
   const {
     isLoading, error, data,
   } = useSelector((state) => state.home);

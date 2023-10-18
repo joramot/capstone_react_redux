@@ -10,16 +10,12 @@ const initialState = {
 export const fetchData = createAsyncThunk(
   'home/fetchdata',
   async () => {
-    try {
-      const response = await fetch('https://financialmodelingprep.com/api/v3/stock_market/gainers?apikey=JZX3skmwGAztX0ta1ByTbmOON6SAlIax');
-      if (!response.ok) {
-        throw new Error('Error Request');
-      }
-      const data = await response.json();
-      return data;
-    } catch (error) {
-      throw new Error(error);
+    const response = await fetch('https://financialmodelingprep.com/api/v3/symbol/NASDAQ?apikey=JZX3skmwGAztX0ta1ByTbmOON6SAlIax');
+    if (!response.ok) {
+      throw new Error('Error Request');
     }
+    const data = await response.json();
+    return data;
   },
 );
 
