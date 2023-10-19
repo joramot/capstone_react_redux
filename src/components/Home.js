@@ -18,7 +18,9 @@ const Home = () => {
   };
 
   return (
-    <>
+    <div>
+      <h1>FMP Financial Modeling Prep</h1>
+      <h2> Stock Prices</h2>
       {isLoading && <p className="">Loading...</p>}
       {error && <p className="">{error}</p>}
       <div className="">
@@ -36,7 +38,7 @@ const Home = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
