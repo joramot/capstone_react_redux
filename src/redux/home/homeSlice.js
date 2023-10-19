@@ -15,6 +15,7 @@ export const fetchData = createAsyncThunk(
       throw new Error('Error Request');
     }
     const data = await response.json();
+
     return data;
   },
 );
