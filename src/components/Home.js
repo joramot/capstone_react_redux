@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchData, getId, setSearch } from '../redux/home/homeSlice';
 import fmpLogo from '../images/fmp_logo.webp';
+import arrow from '../images/arrow-right.png';
 import '../App.css';
 
 const Home = () => {
@@ -41,7 +42,7 @@ const Home = () => {
         {data && data.filter((stock) => (search.toLowerCase() === '' ? stock : stock.symbol.toLowerCase().includes(search))).map((item) => (
           <div key={item.id}>
             <Link className="" to="content" onClick={() => handleGetId(item.id)}>
-              <img alt="right arrow" />
+              <img src={arrow} alt="right arrow" />
             </Link>
             <p>{item.symbol}</p>
             <p>
