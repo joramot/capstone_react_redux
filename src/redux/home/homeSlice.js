@@ -1,10 +1,11 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const initialState = {
+export const initialState = {
   data: [],
   id: 0,
   error: '',
   isLoading: false,
+  search: '',
 };
 
 export const fetchData = createAsyncThunk(
@@ -20,13 +21,14 @@ export const fetchData = createAsyncThunk(
   },
 );
 
-const homeSlice = createSlice({
+export const homeSlice = createSlice({
   name: 'home',
   initialState,
   reducers: {
     getId: (state, action) => {
       state.id = action.payload;
     },
+    setSearch: (state, action) => ({ ...state, search: action.payload }),
   },
   extraReducers: (builder) => {
     builder
@@ -47,5 +49,5 @@ const homeSlice = createSlice({
   },
 });
 
-export const { getId } = homeSlice.actions;
+export const { getId, setSearch } = homeSlice.actions;
 export default homeSlice.reducer;
