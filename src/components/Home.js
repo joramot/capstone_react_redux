@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchData, getId } from '../redux/home/homeSlice';
 import fmpLogo from '../images/fmp_logo.webp';
+import '../App.css';
 
 const Home = () => {
   const {
@@ -20,9 +21,11 @@ const Home = () => {
 
   return (
     <div>
-      <h1>FMP Financial Modeling Prep</h1>
-      <img src={fmpLogo} alt="Financial Modeling Prep" />
-      <h2> Stock Prices</h2>
+      <div className="principalHeader">
+        <img src={fmpLogo} alt="Financial Modeling Prep" />
+        <h1>FMP Financial Modeling Prep</h1>
+      </div>
+      <h2> Stock Prices List</h2>
       {isLoading && <p className="">Loading...</p>}
       {error && <p className="">{error}</p>}
       <div className="">

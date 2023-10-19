@@ -1,10 +1,14 @@
-.App {
+.principalHeader {
+  display: flex;
+  flex-direction: row;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+div {
+  height: 30vmin;
   pointer-events: none;
+  text-align: center;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
