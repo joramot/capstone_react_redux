@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import X from '../images/x-mark.png';
 
 const Content = () => {
   const { data, id } = useSelector((store) => store.home);
@@ -8,7 +9,7 @@ const Content = () => {
     <div>
       <div className="">
         <Link to="/" className="">
-          <img alt="cross" />
+          <img src={X} alt="cross" />
         </Link>
       </div>
       <div className="">
