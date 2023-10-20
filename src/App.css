@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Proza+Libre&family=Roboto+Slab&display=swap');
 
 .App {
-  background-color: coral;
+  background-color: #f57c00;
 }
 
 body {
-  background-color: #ef6c00;
+  background-color: #f57c00;
   color: white;
 }
 
@@ -48,6 +48,8 @@ body {
     transform: rotate(360deg);
   }
 }
+
+/** START STYLES TO HOME */
 
 .search-bar {
   display: flex;

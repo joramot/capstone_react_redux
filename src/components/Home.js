@@ -44,18 +44,23 @@ const Home = () => {
       {error && <p className="">{error}</p>}
       <div className="data">
         {data
-        && data.filter((stock) => (search.toLowerCase() === '' ? stock : stock.symbol.toLowerCase().includes(search))).map((item) => (
-          <div key={item.id}>
-            <Link className="enter-icon" to="content" onClick={() => handleGetId(item.id)}>
-              <img src={arrow} alt="right arrow" />
-            </Link>
-            <p className="symbol">{item.symbol}</p>
-            <p>
-              Price:&nbsp;
-              {item.price}
-            </p>
-          </div>
-        ))}
+        && data
+          .filter((recipe) => {
+            const searchLower = search.toLowerCase();
+            const recipeSymbolLower = recipe.symbol.toLowerCase();
+            return searchLower === '' ? true : recipeSymbolLower.includes(searchLower);
+          }).map((item) => (
+            <div key={item.id}>
+              <Link className="enter-icon" to="content" onClick={() => handleGetId(item.id)}>
+                <img src={arrow} alt="right arrow" />
+              </Link>
+              <p className="symbol">{item.symbol}</p>
+              <p>
+                Price:&nbsp;
+                {item.price}
+              </p>
+            </div>
+          ))}
       </div>
     </div>
   );
