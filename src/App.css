@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Proza+Libre&family=Roboto+Slab&display=swap');
 
-.principalHeader {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
+.App {
+  background-color: coral;
 }
 
-div {
-  height: 30vmin;
-  pointer-events: none;
-  text-align: center;
+body {
+  background-color: #ef6c00;
+  color: white;
+}
+
+.header {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Proza Libre', sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -42,4 +47,90 @@ div {
   to {
     transform: rotate(360deg);
   }
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.search {
+  width: 20px;
+  height: 20px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.header-icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.data div {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+.symbol {
+  font-weight: bold;
+  font-family: 'Roboto', monospace;
+  font-size: 1.4em;
+}
+
+.data div:nth-child(4n-3) {
+  background-color: #f57c00;
+}
+
+.data div:nth-child(4n) {
+  background-color: #f57c00;
+}
+
+.data div:nth-child(4n-1) {
+  background-color: #fb8c00;
+}
+
+.data div:nth-child(4n-2) {
+  background-color: #fb8c00;
+}
+
+.enter-icon {
+  width: 30px;
+  height: 30px;
+  align-self: flex-end;
+  justify-self: flex-start;
+  margin-right: 10%;
+  color: white;
+}
+
+.symbol {
+  font-weight: bold;
+  font-family: 'Roboto', monospace;
+  font-size: 1.4em;
 }
