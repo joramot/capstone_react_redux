@@ -50,3 +50,4 @@ export const homeSlice = createSlice({
 });
 
 export const { getId, setSearch } = homeSlice.actions;
+export default homeSlice.reducer;
