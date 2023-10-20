@@ -11,7 +11,7 @@ export const initialState = {
 export const fetchData = createAsyncThunk(
   'home/fetchdata',
   async () => {
-    const response = await fetch('https://financialmodelingprep.com/api/v3/stock_market/gainers?apikey=JZX3skmwGAztX0ta1ByTbmOON6SAlIax');
+    const response = await fetch('https://financialmodelingprep.com/api/v3/symbol/NASDAQ?apikey=JZX3skmwGAztX0ta1ByTbmOON6SAlIax');
     if (!response.ok) {
       throw new Error('Error Request');
     }

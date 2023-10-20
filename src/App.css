@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Proza+Libre&family=Roboto+Slab&display=swap');
 
-.App {
-  background-color: #f57c00;
-}
-
 body {
-  background-color: #f57c00;
+  background-color: #f11b6d;
   color: white;
 }
 
@@ -25,25 +21,17 @@ h1 {
   font-family: 'Proza Libre', sans-serif;
 }
 
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+  display: block; /* Establece la imagen como bloque para poder aplicar márgenes */
+  margin: 0 auto; /* Establece un margen automático izquierdo y derecho para centrar la imagen */
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -105,19 +93,19 @@ input {
 }
 
 .data div:nth-child(4n-3) {
-  background-color: #f57c00;
+  background-color: #ec4c8a;
 }
 
 .data div:nth-child(4n) {
-  background-color: #f57c00;
+  background-color: #ec4c8a;
 }
 
 .data div:nth-child(4n-1) {
-  background-color: #fb8c00;
+  background-color: #ef97b6;
 }
 
 .data div:nth-child(4n-2) {
-  background-color: #fb8c00;
+  background-color: #ef97b6;
 }
 
 .enter-icon {
@@ -127,6 +115,13 @@ input {
   justify-self: flex-start;
   margin-right: 10%;
   color: white;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /** END STYLES TO HOME */
@@ -139,12 +134,15 @@ input {
 }
 
 .cross-container {
+  background-color: #ec4c8a;
   padding: 15px;
 }
 
-.details-container {
+.content-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #ec4c8a;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

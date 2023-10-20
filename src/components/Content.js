@@ -13,7 +13,7 @@ const Content = () => {
           <img src={X} alt="cross" />
         </Link>
       </div>
-      <div className="details-container">
+      <div className="content-container">
         <h1>{data[id].symbol}</h1>
         <h2>{data[id].name}</h2>
         <h3>
