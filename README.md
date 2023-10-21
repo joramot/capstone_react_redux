@@ -6,13 +6,13 @@
 
 # 📗 Table of Contents
 
-- [welcome to ours project Space Traveler´s Hub](#welcome-to-ours-project-space-travelers-hub)
+- [welcome React-Redux Capstone Project](#welcome-react-redux-capstone-project)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Space Traveler´s Hub! ](#-space-travelers-hub-)
+- [📖 Stocks Prices NASDAQ! ](#-stocks-prices-nasdaq-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo  ... coming soon](#-live-demo---coming-soon)
+  - [🚀 Live Demo  Stocks Prices NASDAQ!](#-live-demo--stocks-prices-nasdaq)
   - [💻 Getting Started ](#-getting-started-)
   - [Available Scripts](#available-scripts)
     - [`npm start`](#npm-start)
@@ -67,7 +67,7 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"> ... coming soon</a>
+## 🚀 Live Demo <a name="live-demo"> [Stocks Prices NASDAQ!](https://stocks-prices-nasdaq.onrender.com)</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
