@@ -1,4 +1,85 @@
-# Getting Started with Create React App
+# welcome React-Redux Capstone Project
+
+<a name="readme-top"></a>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [welcome React-Redux Capstone Project](#welcome-react-redux-capstone-project)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Stocks Prices NASDAQ! ](#-stocks-prices-nasdaq-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo  \[Stocks Prices NASDAQ!\]](#-live-demo--stocks-prices-nasdaq)
+  - [💻 Getting Started ](#-getting-started-)
+  - [Available Scripts](#available-scripts)
+    - [`npm start`](#npm-start)
+    - [`npm test`](#npm-test)
+    - [`npm run build`](#npm-run-build)
+    - [`npm run eject`](#npm-run-eject)
+  - [Learn More](#learn-more)
+    - [Code Splitting](#code-splitting)
+    - [Analyzing the Bundle Size](#analyzing-the-bundle-size)
+    - [Making a Progressive Web App](#making-a-progressive-web-app)
+    - [Advanced Configuration](#advanced-configuration)
+    - [Deployment](#deployment)
+    - [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Stocks Prices NASDAQ! <a name="about-project"></a>
+
+**Stocks Prices NASDAQ** This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+- React
+- Redux
+- CSS
+- NodeJS
+- Jest
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://react.dev/">React</></li>
+    <li><a href="https://react-redux.js.org/">React Redux</a></li>
+    <li><a href="hhttps://jestjs.io/">Jest</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **Select an API that provides numeric data about a topic that you like and then build the webapp around it.**
+- **The webapp have several pages.**
+- **one page with a list of items that could be filtered by some parameters**
+- **one page for the item details.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"> [Stocks Prices NASDAQ!]
+
+<a href="https://stocks-prices-nasdaq.onrender.com">View page</a> 
+<br>
+<a href="https://www.loom.com/share/acebd16655d641d6a79f5b3ffb7411fa?sid=01a9bc8d-6030-4ad3-b30c-12d870c3ebd5">View presentation</a>
+
+ 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +149,61 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Jose RM**
+
+- GitHub: [@Joramot](https://github.com/joramot)
+- Twitter: [@El_rulis](https://twitter.com/el_rulis)
+- LinkedIn: [jose-RM](https://linkedin.com/in/jose-RM)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/joramot/space-traveler/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this Awesome Books project please share my portfolio with recruters!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Original design idea by **Nelson Sakwa** on Behance https://www.behance.net/sakwadesignstudio.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+<br>
+This projectt is [Creative Commons] (https://creativecommons.org/licenses/by-nc/4.0/legalcode) Licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
