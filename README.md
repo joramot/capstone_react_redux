@@ -71,7 +71,7 @@
 
 <a href="https://stocks-prices-nasdaq.onrender.com">View page</a> 
 <br>
-<a href="https://www.loom.com/share/e564c7a4461143608507d40961d828f3?sid=82c53767-6d2e-437a-9f85-734edbaaac4c">View presentation</a>
+<a href="https://www.loom.com/share/acebd16655d641d6a79f5b3ffb7411fa?sid=01a9bc8d-6030-4ad3-b30c-12d870c3ebd5">View presentation</a>
 
  
 
