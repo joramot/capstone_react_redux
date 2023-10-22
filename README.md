@@ -12,7 +12,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo  Stocks Prices NASDAQ!](#-live-demo--stocks-prices-nasdaq)
+  - [🚀 Live Demo  \[Stocks Prices NASDAQ!\]](#-live-demo--stocks-prices-nasdaq)
   - [💻 Getting Started ](#-getting-started-)
   - [Available Scripts](#available-scripts)
     - [`npm start`](#npm-start)
@@ -67,8 +67,13 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"> [Stocks Prices NASDAQ!](https://stocks-prices-nasdaq.onrender.com)</a>
+## 🚀 Live Demo <a name="live-demo"> [Stocks Prices NASDAQ!]
 
+<a href="https://stocks-prices-nasdaq.onrender.com">View page</a> 
+<br>
+<a href="https://www.loom.com/share/e564c7a4461143608507d40961d828f3?sid=82c53767-6d2e-437a-9f85-734edbaaac4c">View presentation</a>
+
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
